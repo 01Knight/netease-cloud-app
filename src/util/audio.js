@@ -3,7 +3,7 @@ import { getSongLyric } from "@/API/index.js";
 
 const audio = window.audio
 const state = store.state
-// 获取指定范围的一个随机数...
+// 获取指定范围的一个随机数
 export function randomNumBoth(Min = 0, Max) {
   let Range = Max - Min + 1;
   let Rand = Math.random();
