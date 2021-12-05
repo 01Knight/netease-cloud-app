@@ -16,7 +16,7 @@ export function debounce(callback, time = 300) {
   }
 }
 export function throttle(callback, wait = 300) {
-  // 定义开始时间
+  // 定义开始时间...
   let start = 0
   return function (e) {
     console.log(111);
