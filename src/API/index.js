@@ -27,7 +27,7 @@ export function getSongLyric(id) {
   return axios.get(`${RequestHeader}lyric?id=${id}`)
 }
 
-// 默认搜索关键词 说明 : 调用此接口 , 可获取默认搜索关键词
+// 默认搜索关键词 说明 : 调用此接口 , 可获取默认搜索关键词11111
 export function getDefaultKeyword() {
   return axios.get(`${RequestHeader}search/default`)
 }
